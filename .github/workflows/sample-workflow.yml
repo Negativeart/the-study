@@ -1,0 +1,7 @@
+- name: Sample Hello World Action
+  # You may pin to the exact commit or the version.
+  # uses: emsameen/custom-gh-action@b86496d38769d3e8e1636460b4df6439a9d12276
+  uses: emsameen/custom-gh-action@v1
+  with:
+    # Who to greet
+    who-to-greet: # default is World
